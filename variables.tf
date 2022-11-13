@@ -1,6 +1,6 @@
 variable "persons" {
   description = "Please enter the Map list of the persons "
-  type        = map(list(string))
+  type        = map(any)
 
 
   validation {
