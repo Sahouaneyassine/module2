@@ -18,3 +18,11 @@ variable "persons" {
 
 
 }
+    
+    
+variable "tagss" {
+  description = "Please enter the Map list of the persons "
+  type        = list(any)
+    
+
+}
